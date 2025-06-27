@@ -9,6 +9,7 @@ class CalculadoraBasica extends HTMLElement {
   // Cree el contenido del componente cuando se agrega al DOM
   connectedCallback() {
     // Cree el contenido HTML que se mostrará dentro del Shadow DOM
+    // Esta parte me costo un poco al principio, pero ya funciona bien
     this.shadow.innerHTML = `
       <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
       <div class="card shadow p-4" style="max-width: 400px;">
